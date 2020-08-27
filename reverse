@@ -1,0 +1,9 @@
+#include<stdio.h>
+#include<conio.h>
+main()
+{
+FILE *fp;
+fp=fopen("hi.txt","w");
+fprintf(fp,"hi");
+fclose(fp);
+}
